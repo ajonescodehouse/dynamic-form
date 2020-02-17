@@ -1,0 +1,22 @@
+[
+  {
+    "id": "1",
+    "name": "USA",
+    "state_id": "1",
+    "value": false
+  },
+
+  {
+    "id": "2",
+    "name": "Canada",
+    "state_id": "2",
+    "value": false
+  },
+
+  {
+    "id": "0",
+    "name": "Australia",
+    "state_id": "3",
+    "value": true
+  }
+]

@@ -1,0 +1,45 @@
+[
+	{
+	  "id":"4",
+	  "name":"New York",
+		"country_id":"1",
+		"value": false
+	}, 
+	{
+	  "id":"5",
+	  "name":"Alabama",
+		"country_id":"1",
+		"value": false
+	}, 
+	{
+	  "id":"6",
+	  "name":"California",
+		"country_id":"1",
+		"value": false
+	}, 
+	{
+	  "id":"7",
+	  "name":"Ontario",
+		"country_id":"2",
+		"value": false
+	}, 
+	{
+	  "id":"8",
+	  "name":"British Columbia",
+		"country_id":"2",
+		"value": false
+	}, 
+	{
+	  "id":"9",
+	  "name":"New South Wales",
+		"country_id":"3",
+		"value": true
+	}, 
+	{
+	  "id":"10",
+	  "name":"Queensland",
+		"country_id":"3",
+		"value": true
+	}
+]
+
