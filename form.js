@@ -10,7 +10,7 @@ $(document).ready(function() {
       countryOptions +=
         '<option value="' + country.value + '">' + country.name + "</option>";
     });
-    $("#selectCountry").html(countryOptions);
+    $(".selectCountry").html(countryOptions);
   });
 
   // $(document).on("change", "#country", function() {
@@ -71,17 +71,17 @@ $(document).ready(function() {
     }
   });
 
-  $("#selectCountry").trigger("change");
+  $(".selectCountry").trigger("change");
 
   // Hide and show Australia countries when Australia is selected on dropdown
-  $("#selectCountry").on("change", function() {
+  $(".selectCountry").on("change", function() {
     "yes" === $(this).val()
       ? $("#australia-states-countries").show()
       : $("#australia-states-countries").hide();
   });
 
   // Hide and show general form for non valid countries
-  $("#selectCountry").on("change", function() {
+  $(".selectCountry").on("change", function() {
     "no" === $(this).val()
       ? $("#general-form-content").show()
       : $("#general-form-content").hide();
