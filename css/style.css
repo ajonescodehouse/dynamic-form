@@ -57,9 +57,9 @@ label {
   float: left;
 }
 
-.content {
+/* .content {
   display: none;
-}
+} */
 button {
   margin-top: 30px;
 }
