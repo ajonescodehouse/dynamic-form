@@ -66,8 +66,17 @@
   },
   {
     "name": "Australia",
-    "valid": "no",
-    "state": ["Australian Capital Territory", "New South Wales", "Northern Territory", "Queensland", "South Australia", "Tasmania", "Victoria", "Western Australia"]
+    "valid": "yes",
+    "state": [
+      "Australian Capital Territory",
+      "New South Wales",
+      "Northern Territory",
+      "Queensland",
+      "South Australia",
+      "Tasmania",
+      "Victoria",
+      "Western Australia"
+    ]
   },
   {
     "name": "Austria",
@@ -86,6 +95,1169 @@
   },
   {
     "name": "Bahrain",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Bangladesh",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Barbados",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Belarus",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Belgium",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Belize",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Benin",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Bermuda",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Bhutan",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Bolivia (Plurinational State of)",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Bonaire, Sint Eustatius and Saba",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Bosnia and Herzegovina",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Botswana",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Brazil",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "British Indian Ocean Territory",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Brunei Darussalam",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Bulgaria",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Burkina Faso",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Burundi",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Cabo Verde",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Cambodia",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Cameroon",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Canada",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Cayman Islands",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Central African Republic",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Chad",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Chile",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "China",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Christmas Island",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Cocos (Keeling) Islands",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Colombia",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Comoros",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Congo",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Congo (the Democratic Republic of the)",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Cook Islands",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Costa Rica",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Cote D'ivoire",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Croatia",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Cuba",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Curacao",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Cyprus",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Czechia",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Denmark",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Djibouti",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Dominica",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Dominican Republic",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Ecuador",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Egypt",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "El Salvador",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Equatorial Guinea",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Eritrea",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Estonia",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Ethiopia",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Falkland Islands (Malvinas)",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Faroe Islands",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Fiji",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Finland",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "France",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "French Guiana",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "French Polynesia",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "French Southern Territories",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Gabon",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Gambia",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Georgia",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Germany",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Ghana",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Gibraltar",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Greece",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Greenland",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Grenada",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Guadeloupe",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Guam",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Guatemala",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Guernsey",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Guinea",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Guinea-Bissau",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Guyana",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Haiti",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Holy See",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Honduras",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Hong Kong",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Hungary",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Iceland",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "India",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Indonesia",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Iran (Islamic Republic of)",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Iraq",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Ireland",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Isle of Man",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Israel",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Italy",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Jamaica",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Japan",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Jersey",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Jordan",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Kazakhstan",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Kenya",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Kiribati",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Korea (the Democratic People's Republic of)",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Korea (the Republic of)",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Kuwait",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Kyrgyzstan",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Lao People's Democratic Republic",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Latvia",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Lebanon",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Lesotho",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Liberia",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Libya",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Liechtenstein",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Lithuania",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Luxembourg",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Macao",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "North Macedonia",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Madagascar",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Malawi",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Malaysia",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Maldives",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Mali",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Malta",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Marshall Islands",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Martinique",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Mauritania",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Mauritius",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Mayotte",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Mexico",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Micronesia (Federated States of)",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Moldova (the Republic of)",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Monaco",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Mongolia",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Montenegro",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Montserrat",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Morocco",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Mozambique",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Myanmar",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Namibia",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Nauru",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Nepal",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Netherlands",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "New Caledonia",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "New Zealand",
+    "valid": "yes",
+    "state": [
+      "Auckland",
+      "Bay of Plenty",
+      "Canterbury",
+      "Chatham Islands Territory",
+      "Gisborne",
+      "Hawke's Bay",
+      "Manawatu-Wanganui",
+      "Marlborough",
+      "Nelson",
+      "Northland",
+      "Otago",
+      "Southland",
+      "Taranaki",
+      "Tasman",
+      "Waikato",
+      "Wellington",
+      "West Coast"
+    ]
+  },
+  {
+    "name": "Nicaragua",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Niger",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Nigeria",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Niue",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Norfolk Island",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Northern Mariana Islands",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Norway",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Oman",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Pakistan",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Palau",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Palestine, State of",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Panama",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Papua New Guinea",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Paraguay",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Peru",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Philippines",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Pitcairn",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Poland",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Portugal",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Puerto Rico",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Qatar",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Reunion",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Romania",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Russian Federation",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Rwanda",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Saint Barthelemy",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Saint Helena, Ascension and Tristan Da Cunha",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Saint Kitts and Nevis",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Saint Lucia",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Saint Martin (French Part)",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Saint Pierre and Miquelon",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Saint Vincent and The Grenadines",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Samoa",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "San Marino",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Sao Tome and Principe",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Saudi Arabia",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Senegal",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Serbia",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Seychelles",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Sierra Leone",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Singapore",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Sint Maarten (Dutch Part)",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Slovakia",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Slovenia",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Solomon Islands",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Somalia",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "South Africa",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "South Georgia and The South Sandwich Islands",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "South Sudan",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Spain",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Sri Lanka",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Sudan",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Suriname",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Svalbard and Jan Mayen",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Eswatini",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Sweden",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Switzerland",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Syrian Arab Republic",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Taiwan (Province of China)",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Tajikistan",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Tanzania, United Republic of",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Thailand",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Timor-Leste",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Togo",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Tokelau",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Tonga",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Trinidad and Tobago",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Tunisia",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Turkey",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Turkmenistan",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Turks and Caicos Islands",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Tuvalu",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Uganda",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Ukraine",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "United Arab Emirates",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "United Kingdom of Great Britain and Northern Ireland",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "United States of America",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "United States Minor Outlying Islands",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Uruguay",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Uzbekistan",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Vanuatu",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Venezuela (Bolivarian Republic of)",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Viet Nam",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Virgin Islands (British)",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Virgin Islands (U.S.)",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Wallis and Futuna",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Western Sahara",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Yemen",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Zambia",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Zimbabwe",
     "valid": "no",
     "state": []
   }
