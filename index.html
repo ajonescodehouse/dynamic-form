@@ -1,179 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>Dynamic Form - Regional Screening</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<head>
+	<meta charset="utf-8">
+	<title>Dynamic Form - Regional Screening</title>
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<meta content="width=device-width, initial-scale=1" name="viewport"><!-- Bootstrap-->
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"><!-- JS, Popper.js, and jQuery-->
 
-    <!-- Bootstrap-->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js">
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js">
+	</script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+	</script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js">
+	</script><!--Form -->
 
-    <!-- JS, Popper.js, and jQuery-->
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-
-    <!--Form -->
-    <script src="form.js"></script>
-  </head>
-
-  <body onload="myLoader()" style="margin:0;">
-    <div id="loader"></div>
-
-    <div
-      style="display:none;"
-      id="mainContainer"
-      class="mt-5 container animate-bottom"
-    >
-      <div class="row">
-        <div class="col-md-12">
-          <p>
-            To access this part of the website, please select your country of
-            residence from the following list.
-          </p>
-        </div>
-      </div>
-
-      <div class="row">
-          <form class="p-3">
-            <div class="form-group" id="select-country-container">
-              <label for="selectCountry"
-                >The country of my primary residence is:</label
-              >
-              <select class="form-control selectCountry"></select>
-            </div>
-
-            <div id="australia-states-countries" style="display:none;">
-              <div class="row">
-                <div class="col-md-12">
-                  <p>Due to legal restrictions, access to this website is only available to residents of Australia and New Zealand 
-                    from within Australia or New Zealand. In order to access this website, you must provide the <i>State</i>, <i>Territory</i>
-                    or <i>Province</i> and postcode for your primary residential address within Australia or New Zealand.
-                  </p>
-                </div>              
-              </div>
-              <div class="mt-5 row">
-                <div class="col-sm-12 col-md-4">
-                  The State or Territory of my primary residence in Australia or the Province of my primary resident in 
-                  New Zealand is:
-                </div>
-                <div class="col-8">
-                  <label for="select-state">Select State</label>
-                  <select class="form-control" id="select-state">
-                    <option value="yes">NSW</option>
-                    <option value="yes">Western Australia</option>
-                    <option value="yes">Queensland</option>
-                  </select>
-                </div>
-              </div>
-              <div class="mt-5 row">
-                <div class="col-sm-12 col-md-4">
-                  <p>The postcode for my primary residence in Australia or New Zealand is:</p>
-                </div>
-                <div class="col-6">
-                  <label for="select-city">Select Postcode</label>
-                  
-                </div>
-              </div>  
-              </div>
-            
-
-            <div class="form-group" id="general-form-content" style="">
-              <p>
-                Unfortunately legal restrictions prevent us from allowing you to
-                access this website. If you have any questions, please contact
-                us by email by filling the details below.
-              </p>
-
-              <div class="form-row form-info">
-                <div class="form-group col-md-6">
-                  <label for="general-field">First Name</label>
-                  <input type="text" class="form-control general-field" />
-                </div>
-
-                <div class="form-group col-md-6">
-                  <label for="general-field">Last Name</label>
-                  <input type="text" class="form-control general-field" />
-                </div>
-
-                <div class="form-group col-md-6">
-                  <label for="general-field">Email</label>
-                  <input type="email" class="form-control general-field" />
-                </div>
-
-                <div class="form-group col-md-6">
-                  <label
-                    for="general-field"
-                    class="col-form-label general-field"
-                    >Telephone</label
-                  >
-                  <input
-                    class="form-control general-field"
-                    type="tel"
-                    id="example-tel-input"
-                  />
-                </div>
-
-                <div class="form-group col-md-6">
-                  <div class="form-check">
-                    <input
-                      class="form-check-input general-field"
-                      type="checkbox"
-                      value=""
-                      id="invalidCheck"
-                      required
-                    />
-                    <label
-                      class="form-check-label general-field"
-                      for="invalidCheck"
-                    >
-                      Agree to terms and conditions
-                    </label>
-                    <div class="invalid-feedback general-field">
-                      You must agree before submitting.
-                    </div>
-                  </div>
-                </div>
-
-                <button class="btn btn-primary" type="submit">Continue</button>
-              </div>
-            </div>
-          </form>
-        </div>
-      </div>
+	<script src="form.js">
+	</script>
+</head>
+<body onload="myLoader()" style="margin:0;">
+	<div id="loader"></div>
+	<div class="mt-5 container animate-bottom" id="mainContainer" style="display:none;">
+		<div class="row">
+        <div class="content" id="content-1" style="display: block;">
+				<div class="col-md-12">
+					<p>To access this part of the website, please select your country of residence from the following list.</p>
+				</div>
+				<div class="form-group" id="select-country-container">
+					<label for="selectCountry">The country of my primary residence is:</label> <select class="form-control selectCountry">
+					</select>
+				</div>
+			</div>
+			<div class="content" id="content-2">
+        <div id="australia-states-countries">
+				<!-- <div id="australia-states-countries" style="display:none;"> -->
+					<div class="row">
+						<div class="col-md-12">
+							<p>Due to legal restrictions, access to this website is only available to residents of Australia and New Zealand from within Australia or New Zealand. In order to access this website, you must provide the <i>State</i>, <i>Territory</i> or <i>Province</i> and postcode for your primary residential address within Australia or New Zealand.</p>
+						</div>
+					</div>
+					<div class="mt-5 row">
+						<div class="col-sm-12 col-md-4">
+							The State or Territory of my primary residence in Australia or the Province of my primary resident in New Zealand is:
+						</div>
+						<div class="col-8">
+							<label for="select-state">Select State</label> <select class="form-control" id="select-state">
+								<option value="yes">
+									NSW
+								</option>
+								<option value="yes">
+									Western Australia
+								</option>
+								<option value="yes">
+									Queensland
+								</option>
+							</select>
+						</div>
+					</div>
+					<div class="mt-5 row">
+						<div class="col-sm-12 col-md-4">
+							<p>The postcode for my primary residence in Australia or New Zealand is:</p>
+						</div>
+						<div class="col-6">
+							<label for="select-city">Select Postcode</label>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="content" id="content-2">
+				<div class="form-group" id="general-form-content" style="">
+					<p>Unfortunately legal restrictions prevent us from allowing you to access this website. If you have any questions, please contact us by email by filling the details below.</p>
+					<div class="form-row form-info">
+						<div class="form-group col-md-6">
+							<label for="general-field">First Name</label> <input class="form-control general-field" type="text">
+						</div>
+						<div class="form-group col-md-6">
+							<label for="general-field">Last Name</label> <input class="form-control general-field" type="text">
+						</div>
+						<div class="form-group col-md-6">
+							<label for="general-field">Email</label> <input class="form-control general-field" type="email">
+						</div>
+						<div class="form-group col-md-6">
+							<label class="col-form-label general-field" for="general-field">Telephone</label> <input class="form-control general-field" id="example-tel-input" type="tel">
+						</div>
+						<div class="form-group col-md-6">
+							<div class="form-check">
+								<input class="form-check-input general-field" id="invalidCheck" required="" type="checkbox" value=""> <label class="form-check-label general-field" for="invalidCheck">Agree to terms and conditions</label>
+								<div class="invalid-feedback general-field">
+									You must agree before submitting.
+								</div>
+							</div>
+						</div><button class="btn btn-primary" type="submit">Continue</button>
+					</div>
+				</div>
+			</div>
     </div>
 
-    <!-- Loader-->
-    <script>
-      var myVar;
+    <button type="button" class="btn btn-primary back">Back</button>
+    <button type="button" class="btn btn-secondary next">Next</button>
+  </div> <!-- End of Main Container-->
 
-      function myLoader() {
-        myVar = setTimeout(showPage, 3000);
-      }
+  <!-- Loader-->
+	<script>
+	     var myVar;
 
-      function showPage() {
-        document.getElementById("loader").style.display = "none";
-        document.getElementById("mainContainer").style.display = "block";
-      }
-    </script>
-  </body>
+	     function myLoader() {
+	       myVar = setTimeout(showPage, 3000);
+	     }
+
+	     function showPage() {
+	       document.getElementById("loader").style.display = "none";
+	       document.getElementById("mainContainer").style.display = "block";
+	     }
+	</script>
+</body>
 </html>
