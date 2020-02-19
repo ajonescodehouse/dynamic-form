@@ -1,22 +1,92 @@
 [
   {
-    "id": "1",
-    "name": "USA",
-    "state_id": "1",
-    "value": false
+    "name": "Afghanistan",
+    "valid": "no",
+    "state": []
   },
-
   {
-    "id": "2",
-    "name": "Canada",
-    "state_id": "2",
-    "value": false
+    "name": "Aland Islands",
+    "valid": "no",
+    "state": []
   },
-
   {
-    "id": "0",
+    "name": "Albania",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Algeria",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "American Samoa",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Andorra",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Angola",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Anguilla",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Antarctica",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Antigua and Barbuda",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Argentina",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Armenia",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Aruba",
+    "valid": "no",
+    "state": []
+  },
+  {
     "name": "Australia",
-    "state_id": "3",
-    "value": true
+    "valid": "no",
+    "state": ["Australian Capital Territory", "New South Wales", "Northern Territory", "Queensland", "South Australia", "Tasmania", "Victoria", "Western Australia"]
+  },
+  {
+    "name": "Austria",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Azerbaijian",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Bahamas",
+    "valid": "no",
+    "state": []
+  },
+  {
+    "name": "Bahrain",
+    "valid": "no",
+    "state": []
   }
 ]

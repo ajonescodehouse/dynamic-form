@@ -29,7 +29,7 @@ $(document).ready(function() {
       });
     } else {
       $("#state").html('<option value="">Select state</option>');
-      $("#city").html('<option value="">Select city</option>');
+      // $("#city").html('<option value="">Select city</option>');
     }
   });
 
