@@ -50,3 +50,9 @@
     display: none;
     text-align: center;
   }
+
+/* Form */
+
+label {
+  float: left;
+}

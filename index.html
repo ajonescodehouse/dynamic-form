@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Dynamic Form</title>
+    <title>Dynamic Form - Regional Screening</title>
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -54,24 +54,29 @@
       </div>
 
       <div class="row">
-        <div class="col-md-6">
           <form class="p-3">
             <div class="form-group" id="select-country-container">
               <label for="selectCountry"
                 >The country of my primary residence is:</label
               >
-              <select class="form-control" id="selectCountry">
-                <option value="no" hidden>Please select Country</option>
-                <option value="no">Canada</option>
-                <option value="no">USA</option>
-                <option value="yes">Australia</option>
-                <option value="yes">New Zealand</option>
-              </select>
+              <select class="form-control" id="selectCountry"></select>
             </div>
 
             <div id="australia-states-countries" style="display:none;">
               <div class="row">
-                <div class="col-6">
+                <div class="col-md-12">
+                  <p>Due to legal restrictions, access to this website is only available to residents of Australia and New Zealand 
+                    from within Australia or New Zealand. In order to access this website, you must provide the <i>State</i>, <i>Territory</i>
+                    or <i>Province</i> and postcode for your primary residential address within Australia or New Zealand.
+                  </p>
+                </div>              
+              </div>
+              <div class="mt-5 row">
+                <div class="col-sm-12 col-md-4">
+                  The State or Territory of my primary residence in Australia or the Province of my primary resident in 
+                  New Zealand is:
+                </div>
+                <div class="col-8">
                   <label for="select-state">Select State</label>
                   <select class="form-control" id="select-state">
                     <option value="yes">NSW</option>
@@ -79,16 +84,22 @@
                     <option value="yes">Queensland</option>
                   </select>
                 </div>
+              </div>
+              <div class="mt-5 row">
+                <div class="col-sm-12 col-md-4">
+                  <p>The postcode for my primary residence in Australia or New Zealand is:</p>
+                </div>
                 <div class="col-6">
-                  <label for="select-city">Select City</label>
+                  <label for="select-city">Select Postcode</label>
                   <select class="form-control" id="select-city">
                     <option value="yes">Sydney</option>
                     <option value="no">Victoria</option>
                     <option value="no">Brisbane</option>
                   </select>
                 </div>
+              </div>  
               </div>
-            </div>
+            
 
             <div class="form-group" id="general-form-content" style="">
               <p>
