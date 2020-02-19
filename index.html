@@ -32,8 +32,6 @@
     ></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 
-    
-
     <!--Form -->
     <script src="form.js"></script>
   </head>
@@ -56,26 +54,102 @@
       </div>
 
       <div class="row">
-        <div class="col-md-12">
-          <p>The country of primary residence is:</p>
-        </div>
-
         <div class="col-md-6">
-          <form>
-                   
-            <select name="country" id="country" class="mt-5 form-control input-lg">
-              <option value="">Select Country</option>
-            </select>  
-       
-            <select name="state" id="state" class="form-control input-lg">
-              <option value="">Select State</option>
-            </select>
-       
-            <select name="city" id="city" class="form-control input-lg">
-              <option value="">Select City</option>
-            </select>
+          <form class="p-3">
+            <div class="form-group" id="select-country-container">
+              <label for="selectCountry"
+                >The country of my primary residence is:</label
+              >
+              <select class="form-control" id="selectCountry">
+                <option value="no" hidden>Please select Country</option>
+                <option value="no">Canada</option>
+                <option value="no">USA</option>
+                <option value="yes">Australia</option>
+                <option value="yes">New Zealand</option>
+              </select>
+            </div>
 
-            <a href="#" class="mt-5 btn btn-primary btn-lg disabled" role="button" aria-disabled="true" >Continue</a> -->
+            <div id="australia-states-countries" style="display:none;">
+              <div class="row">
+                <div class="col-6">
+                  <label for="select-state">Select State</label>
+                  <select class="form-control" id="select-state">
+                    <option value="yes">NSW</option>
+                    <option value="yes">Western Australia</option>
+                    <option value="yes">Queensland</option>
+                  </select>
+                </div>
+                <div class="col-6">
+                  <label for="select-city">Select City</label>
+                  <select class="form-control" id="select-city">
+                    <option value="yes">Sydney</option>
+                    <option value="no">Victoria</option>
+                    <option value="no">Brisbane</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group" id="general-form-content" style="">
+              <p>
+                Unfortunately legal restrictions prevent us from allowing you to
+                access this website. If you have any questions, please contact
+                us by email by filling the details below.
+              </p>
+
+              <div class="form-row form-info">
+                <div class="form-group col-md-6">
+                  <label for="general-field">First Name</label>
+                  <input type="text" class="form-control general-field" />
+                </div>
+
+                <div class="form-group col-md-6">
+                  <label for="general-field">Last Name</label>
+                  <input type="text" class="form-control general-field" />
+                </div>
+
+                <div class="form-group col-md-6">
+                  <label for="general-field">Email</label>
+                  <input type="email" class="form-control general-field" />
+                </div>
+
+                <div class="form-group col-md-6">
+                  <label
+                    for="general-field"
+                    class="col-form-label general-field"
+                    >Telephone</label
+                  >
+                  <input
+                    class="form-control general-field"
+                    type="tel"
+                    id="example-tel-input"
+                  />
+                </div>
+
+                <div class="form-group col-md-6">
+                  <div class="form-check">
+                    <input
+                      class="form-check-input general-field"
+                      type="checkbox"
+                      value=""
+                      id="invalidCheck"
+                      required
+                    />
+                    <label
+                      class="form-check-label general-field"
+                      for="invalidCheck"
+                    >
+                      Agree to terms and conditions
+                    </label>
+                    <div class="invalid-feedback general-field">
+                      You must agree before submitting.
+                    </div>
+                  </div>
+                </div>
+
+                <button class="btn btn-primary" type="submit">Continue</button>
+              </div>
+            </div>
           </form>
         </div>
       </div>
